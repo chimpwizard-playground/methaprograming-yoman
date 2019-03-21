@@ -1,0 +1,26 @@
+{
+  "name": "generator-chimpwizard-helloworld",
+  "version": "1.0.0",
+  "description": "```yaml by: иÐгü email: ndru@chimpwizard.com date: 11.11.2018 version: draft ```",
+  "main": "index.js",
+  "bin": {
+    "cw:hello": "./bin/start.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "ndru@chimpwizard.com",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "lodash": "^4.17.11",
+    "yamljs": "^0.3.0",
+    "yeoman-generator": "^3.2.0"
+  }
+}
